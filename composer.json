@@ -28,7 +28,6 @@
     "php": "^7.3",
     "ext-json": "*",
     "socialiteproviders/manager": "~4.1",
-    "laravel/socialite": "~5.8",
-    "illuminate/support": "~5.0"
+    "laravel/socialite": "~5.8"
   }
 }
