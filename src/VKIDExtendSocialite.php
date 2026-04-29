@@ -1,6 +1,6 @@
 <?php
 
-namespace MoveMoveApp\VKID;
+namespace tr00man\VKID;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
