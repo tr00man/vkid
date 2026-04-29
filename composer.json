@@ -1,27 +1,25 @@
 {
-  "name": "movemoveapp/vkid",
+  "name": "tr00man/vkid",
   "description": "VK ID OAuth 2.1 (id.vk.ru) Socialite provider with PKCE (cache-based, stateless-friendly).",
   "type": "library",
   "license": "MIT",
   "keywords": [
-    "movemove",
     "vk",
     "laravel",
     "sdk",
     "oauth",
     "pkce"
   ],
-  "version": "1.0.4",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
-      "MoveMoveApp\\VKID\\": "src/"
+      "tr00man\\vkid\\": "src/"
     }
   },
   "authors": [
     {
-      "name": "Dmitry Kovalev",
-      "email": "d.kovalev@movemove.com.ru",
-      "homepage": "https://movemove.com.ru",
+      "name": "Maks Trooman",
+      "email": "tr00man@mail.ru",
       "role": "Developer"
     }
   ],
