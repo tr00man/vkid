@@ -10,7 +10,7 @@
     "oauth",
     "pkce"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "tr00man\\vkid\\": "src/"
@@ -27,7 +27,7 @@
   "require": {
     "php": "^7.3",
     "ext-json": "*",
-    "socialiteproviders/manager": "~3.0",
+    "socialiteproviders/manager": "~4.1",
     "laravel/socialite": "~4.2",
     "illuminate/support": "~5.0"
   }
