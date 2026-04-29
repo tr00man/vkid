@@ -1,6 +1,6 @@
 <?php
 
-namespace tr00man\VKID;
+namespace tr00man\vkid;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
