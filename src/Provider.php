@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoveMoveApp\VKID;
+namespace tr00man\VKID;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
