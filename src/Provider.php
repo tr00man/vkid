@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace tr00man\VKID;
+namespace tr00man\vkid;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
@@ -229,7 +229,9 @@ class Provider extends AbstractProvider
             'id'       => (string) ($u['user_id'] ?? ''),
             'nickname' => $u['screen_name'] ?? null,
             'name'     => trim(($u['first_name'] ?? '') . ' ' . ($u['last_name'] ?? '')) ?: null,
-            'email'    => $u['email'],                     // may be null
+            'first_name' => $u['first_name'] ?? null,
+            'last_name' => $u['last_name'] ?? null,
+            'email'    => $u['email'] ?? null,                     // may be null
             'avatar'   => $u['avatar'] ?? null,
         ]);
     }
